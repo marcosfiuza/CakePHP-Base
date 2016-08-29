@@ -1,0 +1,18 @@
+# VIEW / Layouts / auth.ctp
+
+msgid "View.Layouts.auth.head.title"
+msgstr "CakePHP Base"
+
+msgid "View.Layouts.auth.nav.toggle"
+msgstr "Toggle navigation"
+
+msgid "View.Layouts.auth.title"
+msgstr "CakePHP Base"
+
+msgid "View.Layouts.auth.nav.logout"
+msgstr "Logout"
+
+# VIEW / Dashboard / index.ctp
+
+msgid "View.Dashboard.index.page_title"
+msgstr "Dashboard"

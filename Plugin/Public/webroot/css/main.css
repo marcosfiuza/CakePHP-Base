@@ -1,0 +1,12 @@
+body { background-color: #eee; }
+
+.form-signin { margin-top: 120px; }
+.form-signin h2 { margin-bottom: 10px; text-align: center; }
+.form-signin fieldset .form-group input { position: relative; font-size: 16px; height: auto;  padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.form-signin fieldset .form-group span.help-block { display: none; }
+.form-signin fieldset .form-group input { border-radius: 0; }
+.form-signin fieldset .form-group:first-child input { border-top-left-radius: 5px; border-top-right-radius: 5px;  }
+.form-signin fieldset .form-group:last-child input { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.form-signin fieldset .form-group:not(:first-child) { margin-top: -1px; }
+.form-signin fieldset .form-group:not(:last-child) { margin-bottom: 0; }
+.form-signin fieldset .form-control:focus { z-index: 2; }

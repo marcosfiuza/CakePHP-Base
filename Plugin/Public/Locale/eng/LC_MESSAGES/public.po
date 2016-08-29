@@ -1,0 +1,146 @@
+# SETTINGS
+
+msgid "Settings.backend.date.input.format"
+msgstr "Y/d/m"
+
+msgid "Settings.backend.datetime.input.format"
+msgstr "Y/d/m H:i"
+
+# MODEL / User.php
+
+msgid "Model.User.validate.group_id.required"
+msgstr "Enter a valid group"
+
+msgid "Model.User.validate.group_id.groupExist"
+msgstr "Enter a valid group"
+
+msgid "Model.User.validate.name.required"
+msgstr "Enter a valid name"
+
+msgid "Model.User.validate.name.minLength"
+msgstr "Enter at least %s characters"
+
+msgid "Model.User.validate.email.required"
+msgstr "Enter a valid email"
+
+msgid "Model.User.validate.email.pattern"
+msgstr "Enter a valid email"
+
+msgid "Model.User.validate.email.unique"
+msgstr "Email already registered"
+
+msgid "Model.User.validate.password.required"
+msgstr "Enter a valid password"
+
+msgid "Model.User.validate.password.minLength"
+msgstr "Enter at least %s characters"
+
+# CONTROLLER / PublicAppController.php
+
+msgid "Controller.App.beforeFilter.permisson_denied"
+msgstr "You do not have permission to access the requested resource."
+
+# CONTROLLER / AuthController.php / login
+
+msgid "Controller.Auth.login.flash.error"
+msgstr "The credentials you supplied were not correct."
+
+msgid "Controller.Auth.login.invalidate.email"
+msgstr "Invalid email"
+
+msgid "Controller.Auth.login.invalidate.password"
+msgstr "Invalid password"
+
+# CONTROLLER / AuthController.php / password recovery
+
+msgid "Controller.Auth.password_recovery.flash.success"
+msgstr "Your request has been successfully submitted. You will receive an email including instructions on how to reset your password."
+
+# CONTROLLER / AuthController.php / password change
+
+msgid "Controller.Auth.password_change.flash.error"
+msgstr "Ocorreu algum erro com os dados submetidos. Verifique os campos preenchidos e tente novamente."
+
+msgid "Controller.Auth.password_change.flash.success"
+msgstr "Your password has been changed successfully. You can now login using your new password."
+
+# CONTROLLER / UsersController.php / add
+
+msgid "Controller.Users.add.flash.error"
+msgstr "Something went wrong. Please, double check the submitted data and try again."
+
+msgid "Controller.Users.add.flash.success"
+msgstr "You have been successfully registered. You can now sign in using the registered credentials."
+
+# VIEW / Layouts / default.ctp
+
+msgid "View.Layouts.default.head.title"
+msgstr "CakePHP Base"
+
+# VIEW / Auth / login.ctp
+
+msgid "View.Auth.login.page_title"
+msgstr "Login"
+
+msgid "View.Auth.login.form.user.email.placeholder"
+msgstr "Email"
+
+msgid "View.Auth.login.form.user.password.placeholder"
+msgstr "Password"
+
+msgid "View.Auth.login.form.submit"
+msgstr "Login"
+
+msgid "View.Auth.login.password_recovery"
+msgstr "Forgot password"
+
+msgid "View.Auth.login.register"
+msgstr "Register"
+
+# VIEW / Auth / password_recovery.ctp
+
+msgid "View.Auth.password_recovery.page_title"
+msgstr "Forgot password"
+
+msgid "View.Auth.password_recovery.form.user.email.placeholder"
+msgstr "Email"
+
+msgid "View.Auth.password_recovery.form.submit"
+msgstr "Recovery password"
+
+msgid "View.Auth.password_recovery.login"
+msgstr "Back to login"
+
+# VIEW / Auth / password_change.ctp
+
+msgid "View.Auth.password_change.page_title"
+msgstr "Password Change"
+
+msgid "View.Auth.password_change.form.user.password.placeholder"
+msgstr "New Password"
+
+msgid "View.Auth.password_change.form.submit"
+msgstr "Change Password"
+
+msgid "View.Auth.password_change.login"
+msgstr "Back to login"
+
+# VIEW / Users / add.ctp
+
+msgid "View.Users.add.page_title"
+msgstr "Register"
+
+msgid "View.Users.add.form.user.name.placeholder"
+msgstr "Name"
+
+msgid "View.Users.add.form.user.email.placeholder"
+msgstr "Email"
+
+msgid "View.Users.add.form.user.password.placeholder"
+msgstr "Password"
+
+msgid "View.Users.add.form.submit"
+msgstr "Register"
+
+msgid "View.Users.add.login"
+msgstr "Back to login"
