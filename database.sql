@@ -141,6 +141,6 @@ LOCK TABLES `users` WRITE;
 
 INSERT INTO `users` (`id`, `group_id`, `name`, `email`, `password`, `timezone`, `hash`, `created_at`, `updated_at`, `status`)
 VALUES
-	(1,2,'Administrator','administrator@localhost.com','703ccd26dfc2d9451c0a462705856ece69e7128f','UTC','57c47d12-1c9c-4ae8-8eda-0eaa053cbbac','2016-08-29 00:00:00','2016-08-29 00:00:00','enabled');
+	(1,2,'Administrator','administrator@localhost','703ccd26dfc2d9451c0a462705856ece69e7128f','UTC','57c47d12-1c9c-4ae8-8eda-0eaa053cbbac','2016-08-29 00:00:00','2016-08-29 00:00:00','enabled');
 
 UNLOCK TABLES;
